@@ -6,11 +6,11 @@ Open terminal and install relevant packages by following the listed commands for
     python3 -m pip install --user --upgrade pip
     
 ```
-To run each file it will be this if its a python script:
+To run each file it will be this, if its a python script:
 ```
 python3 {name_of_project}.py
 ```
-And for .ipnb files use jupyter notebook:
+And for .ipynb files use jupyter notebook:
 ```
 # inside the directory use 
 
@@ -18,11 +18,11 @@ jupyter notebook
 ```
 Then click the file and run the frames
 
-make sure when you activate pip with:
+make sure when you activate a new pip environment, do it with this command:
 ```
 source {name_of_project_env}/bin/activate
 ```
-You deactivate it with this command before starting the next project with this command:
+You deactivate the environment before starting the next project with this command:
 ```
 source deactivate
 ```
