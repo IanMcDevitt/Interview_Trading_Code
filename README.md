@@ -41,7 +41,24 @@ pip install intrinsic_value_requirements.txt
 source env/bin/activate
 ```
 ### Unoptimized Mean Recersion BTC
-This project utilizes Mean reversion, zscore, dynamic stop loss, and dynamic profit target to Back Test a BTC strategy on historical OHLCV data and display the sharpe score and cumlative returns graph. 
+
+This project employs techniques such as Mean Reversion, Z-score, dynamic stop loss, and dynamic profit target to perform a backtest on a BTC strategy using historical OHLCV data. The Sharpe ratio is computed and presented, along with a graph depicting cumulative returns, to visualize the strategy's performance. 
+
+•	Developed a Python function called dynamic_stop_profit for a mean reversion trading strategy that takes into account dynamic stop loss and profit target levels based on Z-scores.
+
+•	Utilized Pandas to compute rolling mean and standard deviation of the stock's closing price, as well as the average true range (ATR) for a given lookback period.
+
+•	Calculated Z-scores to identify potential mean reversion opportunities and generated trading signals based on a given Z-score threshold.
+
+•	Determined dynamic stop loss and profit target levels using the ATR and user-defined multipliers.
+
+•	Implemented a trailing stop loss and take profit mechanism to adjust positions based on market conditions.
+
+•	Computed strategy returns, cumulative returns, and the Sharpe ratio to evaluate the performance of the trading strategy.
+
+•	Visualized the cumulative returns of the strategy using Matplotlib and displayed the Sharpe ratio for performance assessment.
+
+
 ```
 pip install mean_requirements.txt
 source env/bin/activate
