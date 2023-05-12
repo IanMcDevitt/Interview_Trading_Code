@@ -4,13 +4,24 @@ Install [python](https://www.python.org) 3.10 following the documentation
 Open terminal and install relevant packages by following the listed commands for each project.
 ```
     python3 -m pip install --user --upgrade pip
-    pip install requirements.txt
     
 ```
-To run each file it will be this
+To run each file it will be this:
 ```
 python3 {name_of_project}.py
 ```
+
+make sure when you activate pip with:
+```
+source {name_of_project_env}/bin/activate
+```
+You deactivate it with this command before starting the next project with this command:
+```
+source deactivate
+```
+
+The reason for this, is some of the libraries are incompatible with each other.
+
 ## Completed Projects
 
 ### Monte Carlo Simulation
