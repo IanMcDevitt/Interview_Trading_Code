@@ -16,6 +16,7 @@ python3 {name_of_project}.py
 ### Monte Carlo Simulation
 Monte Carlo Simulation Project simulating the random weighting of portfolios of stock and selecting the optimal portfolio based on sharpe score 
 increase based on historical closing prices 
+
 • Utilized yfinance to extract historical data into Pandas Data Frame
 
 • Improved portfolio’s initial Sharpe score by 79.45% with final score of 1.107703
@@ -28,6 +29,7 @@ source env/bin/activate
 ```
 ### Quantitave Intrinsic Value 
 Calculating  intrinsic value metrics of the whole S&P 500 and selecting the top 50 stocks to invest and display the metrics onto excel 
+
 • Programmed API calls to iexcloud for stock quote data
 
 • Utilized Pandas to create data frames to extrapolate the data to calculate metrics for investing strategy
@@ -73,7 +75,7 @@ pip install graph_requirements.txt
 source env/bin/activate
 ```
 ### Final Round Prsoperity Code
-this code is the final solution that I made for the final round of the IMC Trading Prosperity Coding Challenge. 
+This code is the final solution that I made for the final round of the IMC Trading Prosperity Coding Challenge. 
 ```
 # Doesnt run, just code
 ```
