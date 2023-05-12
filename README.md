@@ -6,10 +6,17 @@ Open terminal and install relevant packages by following the listed commands for
     python3 -m pip install --user --upgrade pip
     
 ```
-To run each file it will be this:
+To run each file it will be this if its a python script:
 ```
 python3 {name_of_project}.py
 ```
+And for .ipnb files use jupyter notebook:
+```
+# inside the directory use 
+
+jupyter notebook 
+```
+Then click the file and run the frames
 
 make sure when you activate pip with:
 ```
@@ -21,6 +28,8 @@ source deactivate
 ```
 
 The reason for this, is some of the libraries are incompatible with each other.
+
+Some of these projects take a while to run so be patient, they are not broken. 
 
 ## Completed Projects
 
