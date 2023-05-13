@@ -123,7 +123,7 @@ jupyter notebook MeanREVERT_BTC.ipynb
 
 
 This project is a graph generator that takes histroical order book data from Prosperity Trading challenge and creates graphs in jupyter notebook and in Excel to help us make investment descions. 
-Please allow this one to fully execute red highlited text will appear just be patient it will work.
+Please allow this one to fully execute, red highlighted text will appear just be patient it will work.
 
 Some inisghts and graphs displayed:
 
