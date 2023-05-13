@@ -33,7 +33,7 @@ Some of these projects take a while to run so be patient, they are not broken.
 
 ## Completed Projects
 
-### Monte Carlo Simulation
+### Monte Carlo Simulation (monte_carlo.ipynb)
 Monte Carlo Simulation Project simulating the random weighting of portfolios of stock and selecting the optimal portfolio based on sharpe score 
 increase based on historical closing prices 
 
@@ -55,7 +55,7 @@ Run:
 source monte_carlo/bin/activate
 jupyter notebook monte_carlo.ipynb 
 ```
-### Quantitave Intrinsic Value 
+### Quantitave Intrinsic Value (quant_value.ipynb)
 Calculating  intrinsic value metrics of the whole S&P 500 and selecting the top 50 stocks to invest and display the metrics onto excel 
 
 • Programmed API calls to iexcloud for stock quote data
@@ -75,7 +75,7 @@ Run:
 source quant/bin/activate
 jupyter notebook quant_value.ipynb
 ```
-### Unoptimized Mean Recersion BTC
+### Unoptimized Mean Recersion BTC (MeanREVERT_BTC.ipynb)
 
 This project employs techniques such as Mean Reversion, Z-score, dynamic stop loss, and dynamic profit target to perform a backtest on a BTC strategy using historical OHLCV data. The Sharpe ratio is computed and presented, along with a graph depicting cumulative returns, to visualize the strategy's performance. 
 
@@ -106,7 +106,7 @@ Run:
 source mean/bin/activate
 jupyter notebook MeanREVERT_BTC.ipynb
 ```
-### Prosperity Graph Generator
+### Prosperity Graph Generator (Prosperity_Graph_Generator.ipynb)
 •	Developed a Python script to load, manipulate and analyze financial data from various order books using the pandas library.
 
 •	Computed key financial indicators like mid-price, profit and loss, moving averages, Bollinger Bands, RSI, and MACD.
@@ -141,14 +141,14 @@ Run:
 source graphs/bin/activate
 jupyter notebook Prosperity_Graph_Generator.ipynb
 ```
-### Final Round Prsoperity Code
+### Final Round Prsoperity Code (rsimom.py)
 This code is the final solution that I made for the final round of the IMC Trading Prosperity Coding Challenge. 
 ```
 # Doesnt run, just code
 ```
 ## Active Projects (not completed)
 
-### Transformer Market Making Model
+### Transformer Market Making Model transformer_model.py
 This Model will produce buy, hold, and sell signals. Needs to find solution for sentiment analysis  
 • Preprocessing market, data, orderbook data, and time-series-calculations for feature engineering
 
@@ -163,7 +163,7 @@ This Model will produce buy, hold, and sell signals. Needs to find solution for 
 ```
 # just code for now ...
 ```
-### S&P 500 Heart Beat
+### S&P 500 Heart Beat (s&p500hear_beat.py)
 The final output of this project is a series of data frames, each representing the top 10 stocks for long and short positions according to a specific metric. This enables investors to make informed decisions based on various financial ratios and indicators.
 
 •	Designed and developed a Python-based analytical tool for evaluating S&P 500 companies on various financial metrics and sentiment analysis.
@@ -187,7 +187,7 @@ The final output of this project is a series of data frames, each representing t
 # just code for now ...
 ```
 
-### Sentiment Analysis 
+### Sentiment Analysis (sentiment.py)
 •	Collected and preprocessed a year's worth of textual data and historical stock prices using web scraping and data cleaning techniques.
 
 •	Conducted sentiment analysis using BERT, VADER, and GPT, and compared their performance against human input as a baseline.
