@@ -31,6 +31,8 @@ The reason for this, is some of the libraries are incompatible with each other.
 
 Some of these projects take a while to run so be patient, they are not broken. 
 
+Excel files will appear in the downloaded directory for your viewing. 
+
 ## Completed Projects
 
 ### Monte Carlo Simulation (monte_carlo.ipynb)
