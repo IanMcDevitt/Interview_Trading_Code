@@ -45,7 +45,7 @@ increase based on historical closing prices
 Setup:
 ```
 python3 -m venv monte_carlo
-pip install monte_carlo_requiremnts.txt
+pip install monte_carlo_requirements.txt
 source monte_carlo/bin/activate
 ```
 Run:
