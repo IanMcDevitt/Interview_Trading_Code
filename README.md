@@ -133,7 +133,7 @@ Setup:
 ```
 python3 -m venv graphs
 source graphs/bin/activate
-pip install -r prospertiy_graph_generator_requirements.txt
+pip install -r prosperity_graph_generator_requirements.txt
 deactivate
 ```
 Run:
