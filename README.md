@@ -42,10 +42,15 @@ increase based on historical closing prices
 • Improved portfolio’s initial Sharpe score by 79.45% with final score of 1.107703
 
 • Initialize weights to uniform distribution from 0 to 1, to perform Monte Carlo simulation
-
+Setup:
 ```
+python3 -m venv monte_carlo
 pip install monte_carlo_requiremnts.txt
-source env/bin/activate
+source monte_carlo/bin/activate
+```
+Run:
+```
+jupyter notebook monte_carlo.ipynb 
 ```
 ### Quantitave Intrinsic Value 
 Calculating  intrinsic value metrics of the whole S&P 500 and selecting the top 50 stocks to invest and display the metrics onto excel 
@@ -55,10 +60,15 @@ Calculating  intrinsic value metrics of the whole S&P 500 and selecting the top 
 • Utilized Pandas to create data frames to extrapolate the data to calculate metrics for investing strategy
 
 • Used xlsxwriter to create an excel file that lists the top 50 stocks and their associated metrics in a table
-
+Setup:
 ```
-pip install intrinsic_value_requirements.txt
-source env/bin/activate
+python3 -m venv quant
+pip install quant_intrinsic_requirements.txt
+source quant/bin/activate
+```
+Run:
+```
+jupyter notebook quant_value.ipynb
 ```
 ### Unoptimized Mean Recersion BTC
 
@@ -78,10 +88,16 @@ This project employs techniques such as Mean Reversion, Z-score, dynamic stop lo
 
 •	Visualized the cumulative returns of the strategy using Matplotlib and displayed the Sharpe ratio for performance assessment.
 
+Setup:
 
 ```
-pip install mean_requirements.txt
-source env/bin/activate
+python3 -m venv mean
+pip install BTC_requirements.txt
+source mean/bin/activate
+```
+Run:
+```
+jupyter notebook MeanREVERT_BTC.ipynb
 ```
 ### Prosperity Graph Generator
 •	Developed a Python script to load, manipulate and analyze financial data from various order books using the pandas library.
@@ -106,10 +122,15 @@ Top 5 pairs trading oppurtunities
 2. order book Volume
 3. moving averages 
 4. correlation spread graphs
-
+Setup:
 ```
-pip install graph_requirements.txt
-source env/bin/activate
+python3 -m venv graphs
+pip install prospertiy_graph_generator_requirements.txt
+source graphs/bin/activate
+```
+Run:
+```
+jupyter notebook Prosperity_Graph_Generator.ipynb
 ```
 ### Final Round Prsoperity Code
 This code is the final solution that I made for the final round of the IMC Trading Prosperity Coding Challenge. 
