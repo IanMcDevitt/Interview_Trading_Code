@@ -3,7 +3,7 @@
 Install [python](https://www.python.org) 3.10 following the documentation
 Open terminal and install relevant packages by following the listed commands for each project.
 ```
-    python3 -m pip install --user --upgrade pip
+python3 -m pip install --user --upgrade pip
     
 ```
 To run each file it will be this, if its a python script:
