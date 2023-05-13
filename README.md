@@ -45,11 +45,14 @@ increase based on historical closing prices
 Setup:
 ```
 python3 -m venv monte_carlo
-pip install monte_carlo_requirements.txt
 source monte_carlo/bin/activate
+pip install -r monte_carlo_requirements.txt
+deactivate
+
 ```
 Run:
 ```
+source monte_carlo/bin/activate
 jupyter notebook monte_carlo.ipynb 
 ```
 ### Quantitave Intrinsic Value 
@@ -63,11 +66,13 @@ Calculating  intrinsic value metrics of the whole S&P 500 and selecting the top 
 Setup:
 ```
 python3 -m venv quant
-pip install quant_intrinsic_requirements.txt
 source quant/bin/activate
+pip install -r quant_intrinsic_requirements.txt
+deactivate
 ```
 Run:
 ```
+source quant/bin/activate
 jupyter notebook quant_value.ipynb
 ```
 ### Unoptimized Mean Recersion BTC
@@ -92,11 +97,13 @@ Setup:
 
 ```
 python3 -m venv mean
-pip install BTC_requirements.txt
 source mean/bin/activate
+pip install -r BTC_requirements.txt
+deactivate
 ```
 Run:
 ```
+source mean/bin/activate
 jupyter notebook MeanREVERT_BTC.ipynb
 ```
 ### Prosperity Graph Generator
@@ -125,11 +132,13 @@ Top 5 pairs trading oppurtunities
 Setup:
 ```
 python3 -m venv graphs
-pip install prospertiy_graph_generator_requirements.txt
 source graphs/bin/activate
+pip install -r prospertiy_graph_generator_requirements.txt
+deactivate
 ```
 Run:
 ```
+source graphs/bin/activate
 jupyter notebook Prosperity_Graph_Generator.ipynb
 ```
 ### Final Round Prsoperity Code
